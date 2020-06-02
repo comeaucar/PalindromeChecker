@@ -1,0 +1,17 @@
+function palindrome(str) {
+  var regX = /[A-Za-z0-9]+/gi
+  var newStr = str.toLowerCase();
+  var arrOne = newStr.match(regX);
+  var joinedStr  = arrOne.join('')
+  var evalStr = '';
+
+  for(let i = joinedStr.length - 1; i >= 0; i--){
+    evalStr += joinedStr[i];
+  }
+  
+  if(joinedStr === evalStr){
+    return true
+  }
+  
+  return false;
+}
