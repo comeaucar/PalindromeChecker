@@ -1,5 +1,5 @@
 # palindrome-checker
-My solution for freecodecamp.org Palindrome Checker question.
+My solution to freecodecamp.org Palindrome Checker question.
 
 The instructions were as follows:
 
